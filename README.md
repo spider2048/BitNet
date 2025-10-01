@@ -1,4 +1,15 @@
 # bitnet.cpp
+
+Adds optimization flags to improve inference speed on CPUs.
+
+```
+prompt eval time =    3491.16 ms /   370 tokens (    9.44 ms per token,   105.98 tokens per second)
+       eval time =    5025.05 ms /   105 tokens (   47.86 ms per token,    20.90 tokens per second)
+      total time =    8516.22 ms /   475 tokens
+```
+
+---
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![version](https://img.shields.io/badge/version-1.0-blue)
 
